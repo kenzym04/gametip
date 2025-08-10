@@ -1,8 +1,8 @@
 {
-  "name": "Web3-Gametip",
+  "name": "web3-gametip",
   "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "web3-gametip",
   "scripts": {
     "server": "nodemon ./server/server.js",
     "start": "concurrently \"npm run server\" \"npm run client\"",
@@ -40,33 +40,46 @@
     "gamba-react-v2": "^1.1.6",
     "gravatar": "^1.8.1",
     "html2canvas": "^1.4.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.2",
     "matter-js": "^0.19.0",
-    "mongoose": "^5.11.8",
+    "mongoose": "^8.17.1",
     "normalize-url": "^5.3.0",
     "paytmchecksum": "^1.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
     "request": "^2.88.2",
-    "styled-components": "^6.0.8",
     "socket.io-client": "^4.8.1",
     "sqlite3": "^5.1.7",
+    "styled-components": "^6.0.8",
     "swr": "^2.2.4",
     "three": "^0.158.0",
     "zustand": "^4.4.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.54.2",
     "@types/matter-js": "^0.19.5",
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.0.11",
     "@types/three": "^0.161.2",
     "@vitejs/plugin-react": "^3.1.0",
+    "allure-playwright": "^3.3.3",
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.6",
     "unplugin-fonts": "^1.0.3",
     "vite": "^4.2.1",
     "vite-plugin-node-polyfills": "^0.22.0",
     "vite-plugin-pwa": "^0.17.4"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/bypinsun/gametip.git"
+  },
+  "author": "Ken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/bypinsun/gametip/issues"
+  },
+  "homepage": "https://bitbucket.org/bypinsun/gametip#readme"
 }

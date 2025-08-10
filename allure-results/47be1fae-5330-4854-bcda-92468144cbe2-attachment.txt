@@ -1,0 +1,1 @@
+GET /user/profile (unauthenticated) Status: 200

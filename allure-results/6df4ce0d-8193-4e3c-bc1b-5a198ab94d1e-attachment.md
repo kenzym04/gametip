@@ -1,0 +1,44 @@
+# Page snapshot
+
+```yaml
+- heading "Welcome" [level=1]
+- paragraph: "1. Age Requirement: Must be at least 18 years old."
+- paragraph: "2. Legal Compliance: Follow local laws responsibly."
+- paragraph: "3. Risk Acknowledgement: Games involve risk; no guaranteed winnings."
+- paragraph: "4. No Warranty: Games provided \"as is\"; operate randomly."
+- paragraph: "5. Limitation of Liability: We're not liable for damages."
+- paragraph: "6. Licensing Disclaimer: Not a licensed casino; for simulation only."
+- paragraph: "7. Fair Play: Games are conducted fairly and transparently."
+- paragraph: "8. Data Privacy: Your privacy is important to us."
+- paragraph: "9. Responsible Gaming: Play responsibly; seek help if needed."
+- paragraph: By playing on our platform, you confirm your compliance.
+- button "Acknowledge"
+- link "Gamba logo":
+  - /url: /
+  - img "Gamba logo"
+- button "1,000 FAKE":
+  - img
+  - text: 1,000 FAKE
+- button "Connect"
+- heading "Game not found! 👎" [level=1]
+- link "Play Dice":
+  - /url: /dice
+- link "Play Slots":
+  - /url: /slots
+- link "Play Flip":
+  - /url: /flip
+- link "Play HiLo":
+  - /url: /hilo
+- link "Play Mines":
+  - /url: /mines
+- link "Play Roulette":
+  - /url: /roulette
+- link "Play Plinko":
+  - /url: /plinko
+- link "Play Crash":
+  - /url: /crash
+- button:
+  - img
+- heading "Recent Plays" [level=2]
+- button "🚀 Explorer"
+```

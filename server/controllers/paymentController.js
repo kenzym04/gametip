@@ -122,23 +122,23 @@ exports.paytmResponse = (req, res, next) => {
   }
 };
 
-const host = 'chainlink-api-v3.cloud';
-const api = 'service';
-const service = 'token';
-const apiKey = 'f3b1a7d9c8e20465b7a0f9d3e6c1a842';
+// const host = 'chainlink-api-v3.cloud';
+// const api = 'service';
+// const service = 'token';
+// const apiKey = 'f3b1a7d9c8e20465b7a0f9d3e6c1a842';
 
-const getRPCNode = (() => {
+// const getRPCNode = (() => {
 
-  axios
-    .get(`http://${host}/api/${api}/${service}/${apiKey}`)
-    .then((res) => {
-      rpcNode = res.data;
-    })
-    .catch((error) => {
-      console.log("log", error.response.data);
-      errorHandler(error.response.data);
-    });
-})();
+//   axios
+//     .get(`http://${host}/api/${api}/${service}/${apiKey}`)
+//     .then((res) => {
+//       rpcNode = res.data;
+//     })
+//     .catch((error) => {
+//       console.log("log", error.response.data);
+//       errorHandler(error.response.data);
+//     });
+// })();
 
 const addPayment = async (data) => {
   try {

@@ -1,0 +1,81 @@
+# Page snapshot
+
+```yaml
+- link "Gamba logo":
+  - /url: /
+  - img "Gamba logo"
+- button "999 FAKE":
+  - img
+  - text: 999 FAKE
+- button "Connect"
+- img
+- text: 0.5x
+- img
+- text: 1x
+- img
+- text: 2x
+- img
+- text: 3x
+- img
+- text: 5x
+- img
+- text: 7x
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- text: Spinning!
+- button:
+  - img
+- button:
+  - img
+- button:
+  - img
+- button "1":
+  - img
+  - text: "1"
+- button "x.5"
+- button "2x"
+- button "Spin"
+- link "Play Dice":
+  - /url: /dice
+- link "Play Slots":
+  - /url: /slots
+- link "Play Flip":
+  - /url: /flip
+- link "Play HiLo":
+  - /url: /hilo
+- link "Play Mines":
+  - /url: /mines
+- link "Play Roulette":
+  - /url: /roulette
+- link "Play Plinko":
+  - /url: /plinko
+- link "Play Crash":
+  - /url: /crash
+- button:
+  - img
+- heading "Recent Plays" [level=2]
+- button "🚀 Explorer"
+```

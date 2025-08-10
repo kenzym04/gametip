@@ -1,0 +1,1 @@
+GET /payment/status/:id (unauthenticated) Status: 200
